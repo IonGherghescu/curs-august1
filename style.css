@@ -1,0 +1,43 @@
+/* START RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:focus {
+   box-shadow: unset;
+   outline: unset;
+   border: unset;
+}
+
+.button {
+    font-size: 1.6rem;
+    line-height: 1em;
+    padding: 1em 1.5em;
+    min-width: 24rem;
+    display: inline-block;
+    font-weight: 500;
+    color:white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px solid blue;
+    transition: all 0.3s ease out;
+
+
+}
+
+
